@@ -1,14 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license !== null){
+  if(license !== ""){
     return `[${license}](https://img.shields.io/badge/license-${license}-brightgreen)`;
   }
   else {return ' '}
 }
 
 function renderLicenseLink(license) {
-  if (license !== null) {
+  if (license !== '') {
      return `[license](#license) \n \n`;
  }
  else {
@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license, userName) {
   const userLicense = license;
   const licenseBadge = renderLicenseBadge(license);
-  if (userLicense !== null) {
+  if (userLicense !== '') {
     return `## license \n \n
     ${userLicense} License \n \n
     ${licenseBadge} \n \n
