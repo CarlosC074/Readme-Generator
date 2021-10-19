@@ -29,7 +29,7 @@
   Using node js and the packages inquirer and fs, running this code in a command line interface with node installed will prompt the user to input information about a project they want to create a README file for. The code will process the inputs and generate a README file in the correct format based on user input.   
  
 
-  ## license 
+  ## license ![MIT](https://img.shields.io/badge/license-MIT-brightgreen) 
  
 
     MIT License 
